@@ -1,4 +1,4 @@
-module ginktest
+module nikgregory/ginktest
 
 require (
 	github.com/onsi/ginkgo v1.14.2
