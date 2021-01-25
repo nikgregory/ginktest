@@ -1,15 +1,15 @@
 package tests_test
 
 import (
+	ginktests "ginktest/tests"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"ginktest/tests"
 )
 
 var _ = Describe("Ginktest", func() {
 	BeforeEach(func() {
-		hello()
+		ginktests.Hello()
 	})
 
 	Describe("An example test", func() {
